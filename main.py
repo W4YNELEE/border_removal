@@ -15,8 +15,3 @@ src, output_dir = args.src, args.output_dir
 bc.THRESHOLD = args.threshold
 
 bc.crop_process(src, output_dir)
-# print(src, output_dir, border_crop.THRESHOLD)
-
-# print(args.src)
-# print(args.output_dir)
-# print(args.threshold)

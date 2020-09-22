@@ -55,12 +55,12 @@ def crop_process(src, dir_):
 											 
 	img.save('{}/{}_crop.{}'.format(dir_, src.split('.')[-2].split('/')[-1], ext))
 
-print(THRESHOLD)
+
 
 if __name__ == '__main__':
 	t1 = time.time()
 
-	crop_process('./')
+	crop_process('./','./result') ##wanna process image
 
 	t2 = time.time()
 	print('done, 耗時{:5.4f}秒'.format(t2-t1))
