@@ -1,10 +1,9 @@
 # Image Black Border Removal
 
----
 
 ![img](./demo/demo.png)
 
----
+<br>
 
 ## Package install:
 
@@ -16,7 +15,7 @@
 pip install -r requirement.txt
 ```
 
----
+<br>
 
 ## Usage:
 
